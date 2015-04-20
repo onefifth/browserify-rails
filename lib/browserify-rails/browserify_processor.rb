@@ -1,6 +1,7 @@
 require "open3"
 require "fileutils"
 require "tempfile"
+require "tilt"
 
 module BrowserifyRails
   class BrowserifyProcessor < Tilt::Template
